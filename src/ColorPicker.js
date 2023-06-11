@@ -1,6 +1,6 @@
 import React from "react";
-//import reactCSS from "reactcss";
-//import { SketchPicker } from "react-color";
+import reactCSS from "reactcss";
+import { SketchPicker } from "react-color";
 import { GithubPicker } from "react-color";
 class SketchExample extends React.Component {
   state = {
