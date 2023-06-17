@@ -16,6 +16,31 @@ function NavBar() {
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
+            
+            <li className='nav-item'>
+              <NavLink
+                exact
+                to='/home'
+                activeClassName='active'
+                className='nav-links'
+                onClick={handleClick}
+              >
+                Home
+              </NavLink>
+              
+            </li>
+            <li className='nav-item'>
+              <NavLink
+                exact
+                to='/images'
+                activeClassName='active'
+                className='nav-links'
+                onClick={handleClick}
+              >
+                Imagenes
+              </NavLink>
+              
+            </li>
             <li className='nav-item'>
               <NavLink
                 exact
@@ -24,20 +49,10 @@ function NavBar() {
                 className='nav-links'
                 onClick={handleClick}
               >
-                Home
+                Galery
               </NavLink>
             </li>
-            <li className='nav-item'>
-              <NavLink
-                exact
-                to='/table'
-                activeClassName='active'
-                className='nav-links'
-                onClick={handleClick}
-              >
-                Table
-              </NavLink>
-            </li>
+            
             <li className='nav-item'>
               <NavLink
                 exact
@@ -59,7 +74,9 @@ function NavBar() {
               >
                 Contact Us
               </NavLink>
+              
             </li>
+            
           </ul>
           <div className='nav-icon' onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>

@@ -4,28 +4,26 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import MyTable from "./MyTable";
-
 import Table from "./NavItems/Table";
-import Home from "./NavItems/Home";
 import Contact from "./NavItems/Contact";
 import Blog from "./NavItems/Blog";
 import NavBar from "./NavBar";
+import Galery from "./NavItems/Galery";
+import Fondo from "./NavItems/Home";
+import CardHover from "./NavItems/Images";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <h1>My First React App</h1>
-
-    <Router>
+     <Router>
       <NavBar />
-
       <div className='pages'>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/table' element={<Table />} />
+          <Route path='/' element={<Galery />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/home' element={<Fondo />} />
+          <Route path='/images' element={<CardHover />} />
         </Routes>
       </div>
     </Router>

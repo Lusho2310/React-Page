@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Fondo from "../NavItems/Home";
 import "../Contact.css";
 
 function Contact() {
@@ -17,11 +18,7 @@ function Contact() {
     const auth = enteredPassword == password;
     setAuthorized(auth);
   }
-
-
-
-
-
+  
 
   let login = (
     <form action='#' onSubmit={handleSubmit}>
