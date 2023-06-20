@@ -2,7 +2,8 @@ import React from "react";
 
 export default function TasksList({ allTasks, handleDelete }) {
   return (
-    <ul className="TaksListITems">
+    
+      <ul className="TaksListITems">
       {allTasks.map(({ title, description, id }) => (
         <li className="toDoListItem" key={id}>
           <div>

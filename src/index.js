@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Table from "./NavItems/Table";
 import Contact from "./NavItems/Contact";
 import Blog from "./NavItems/Blog";
 import NavBar from "./NavBar";
 import Galery from "./NavItems/Galery";
 import Fondo from "./NavItems/Home";
 import CardHover from "./NavItems/Images";
+import Footer from "./footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -27,6 +27,7 @@ root.render(
         </Routes>
       </div>
     </Router>
+    <Footer/>
   </React.StrictMode>
 );
 

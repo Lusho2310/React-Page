@@ -16,7 +16,7 @@ function NavBar() {
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            
+            <li></li>
             <li className='nav-item'>
               <NavLink
                 exact
