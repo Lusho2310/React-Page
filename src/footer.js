@@ -7,11 +7,12 @@ function Footer() {
 <div class="row primary">
   <div class="column about">
 
-  <h3>Foolish Developer</h3>
+  <h3>About me</h3>
 
    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-      voluptatem corporis error non,
+   My name is Luis Pazmiño Montero, 
+   I am a student of the "Escuela Superior Politecnica de Chimborazo" 
+   I am in the IT career in the first semester and this is my first web page in React
   </p>
 
   <div class="social">
@@ -22,9 +23,10 @@ function Footer() {
     <i class="fa-brands fa-whatsapp-square"></i>
   </div>
 </div>
-
+<div></div>
+<div></div>
 <div class="column">
-<h3>Some Links</h3>
+
 
  <ul>
 
@@ -45,23 +47,6 @@ function Footer() {
 </div>
 
 
-<div class="column">
-  <h3>Some Links</h3>
-   <ul>
-    <li>
-     <a href="#faq">F.A.Q</a>
-    </li>
-    <li>
-     <a href="#cookies-policy">Cookies Policy</a>
-    </li>
-    <li>
-    <a href="#terms-of-services">Terms Of Service</a>
-    </li>
-    <li>
-    <a href="#support">Support</a>
-    </li>
-  </ul>
-</div>
 
 </div>
 

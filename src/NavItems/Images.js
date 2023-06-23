@@ -8,28 +8,28 @@ function CardHover() {
         <div className="content">
           <h2 className="title">Titulo</h2>
           <p className="copy">Descrpcion</p>
-          <button className="btn">View Trips</button>
+          <button className="btn">See more</button>
         </div>
       </div>
       <div className="card">
         <div className="content">
           <h2 className="title">Titulo</h2>
           <p className="copy">Descrpcion</p>
-          <button className="btn">View Trips</button>
+          <button className="btn">See more</button>
         </div>
       </div>
       <div className="card">
         <div className="content">
           <h2 className="title">Titulo</h2>
           <p className="copy">Descrpcion</p>
-          <button className="btn">View Trips</button>
+          <button className="btn">See more</button>
         </div>
       </div>
       <div className="card">
         <div className="content">
           <h2 className="title">Titulo</h2>
           <p className="copy">Descrpcion</p>
-          <button className="btn">View Trips</button>
+          <button className="btn">See more</button>
         </div>
       </div>
     </main>
